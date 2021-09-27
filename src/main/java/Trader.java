@@ -98,6 +98,7 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Tesla(),
+                new Dog()
                 new PirateShip()
                 // TODO: Add Tradable objects here!
                 new Wagon()
