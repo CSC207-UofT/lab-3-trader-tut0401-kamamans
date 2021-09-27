@@ -29,7 +29,6 @@ public class Wagon implements Drivable, Tradable {
 
     @Override
     public String toString(){
-        String oof = super.toString();
-        return oof + " (Max speed: " + this.maxSpeed +")";
+        return super.toString() + " (Max speed: " + this.maxSpeed +")";
     }
 }
