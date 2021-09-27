@@ -28,7 +28,7 @@ public class Trader {
 
         // Select a random subset of item_list for the inventory
         // and wishlist.
-        ArrayList<Tradable> copy = new ArrayList<Tradable>(item_list);
+        ArrayList<Tradable> copy = new ArrayList<>(item_list);
         Collections.shuffle(copy);
 
         int max_size = (copy.size() - 1) / 2;
@@ -97,9 +97,21 @@ public class Trader {
                 new Horse(),
                 new Horse(),
                 new Horse(),
+
                 new Penguin(),
                 new Penguin(),
                 new Penguin()
+
+                // TODO: Add Tradable objects here!
+                new Cow()
+                new Tesla(),
+                new Dog()
+                new PirateShip()
+                // TODO: Add Tradable objects here!
+                new Wagon()
+                new Snowmobile(),
+                new Snowmobile()
+
         );
 
         /* Below, we've created two Traders. Their money, inventory, and
