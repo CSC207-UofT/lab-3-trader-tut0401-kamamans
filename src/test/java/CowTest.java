@@ -23,7 +23,7 @@ public class CowTest {
 
     @Test(timeout = 50)
     public void TestGetPrice() {
-        assertEquals(25, c.getPrice());
+        assertEquals(24, c.getPrice());
     }
 
     @Test(timeout = 50)

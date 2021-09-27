@@ -18,7 +18,7 @@ public class Cow implements Domesticatable, Tradable {
 
     @Override
     public int getPrice() {
-        return 25;
+        return 24;
     }
 
     @Override
