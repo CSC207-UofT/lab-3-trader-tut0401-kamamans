@@ -1,5 +1,5 @@
 /*
- * This file contains sample JUnit test cases for Horse.java
+ * This file contains sample JUnit test cases for Cow.java
  * You should NOT modify this file!
  */
 
@@ -29,6 +29,11 @@ public class CowTest {
     @Test(timeout = 50)
     public void TesttoString() {
         assertEquals("I'm a cow and the noise I make is Moo!", c.toString());
+    }
+
+    public void TestsetColour() {
+        c.setcolour("black");
+        assertEquals("black",c.getColour());
     }
 
 }

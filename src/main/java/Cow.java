@@ -7,8 +7,12 @@ public class Cow implements Domesticatable, Tradable {
         this.colour = "brown";
     }
 
-    public void Setcolour(String colour) {
+    public void setcolour(String colour) {
         this.colour = colour;
+    }
+
+    public String getColour() {
+        return this.colour;
     }
 
     @Override
