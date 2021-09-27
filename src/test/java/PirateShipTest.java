@@ -2,13 +2,12 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
-
 public class PirateShipTest {
-    PirateShipTest p;
+    PirateShip p;
 
     @Before
     public void setUp() throws Exception {
-        p = new PirateShipTest();
+        p = new PirateShip();
     }
 
     @Test(timeout = 50)
