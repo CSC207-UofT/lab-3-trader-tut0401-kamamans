@@ -17,7 +17,7 @@ public class Tesla implements Drivable, Tradable {
 
     @Override
     public int getPrice() {
-        return 5;
+        return 30000;
     }
 
     @Override

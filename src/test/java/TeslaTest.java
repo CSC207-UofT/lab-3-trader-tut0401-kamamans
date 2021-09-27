@@ -1,5 +1,5 @@
 /*
- * This file contains sample JUnit test cases for Horse.java
+ * This file contains sample JUnit test cases for Tesla.java
  * You should NOT modify this file!
  */
 
@@ -35,7 +35,7 @@ public class TeslaTest {
 
     @Test(timeout = 50)
     public void test_get_price() {
-        assertEquals(5, t.getPrice());
+        assertEquals(30000, t.getPrice());
     }
 
     @Test(timeout = 100)
