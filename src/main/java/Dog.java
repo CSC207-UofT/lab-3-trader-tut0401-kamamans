@@ -2,7 +2,7 @@ public class Dog implements Domesticatable, Tradable {
     private int age;
 
     public Dog(int age) {
-        this.age = age+1;
+        this.age = age;
     }
 
     public Dog() {
@@ -30,6 +30,6 @@ public class Dog implements Domesticatable, Tradable {
 
     @Override
     public String toString() {
-        return "A cute dog that is " + (this.age - 1) + " dog years old!";
+        return "A cute dog that is " + (this.age) + " dog years old!";
     }
 }
