@@ -1,4 +1,4 @@
-/* A wagon class that is drivable and treatable.
+/* A wagon class that is drivable and tradeable.
  */
 public class Wagon implements Drivable, Tradable {
     private int maxSpeed;
