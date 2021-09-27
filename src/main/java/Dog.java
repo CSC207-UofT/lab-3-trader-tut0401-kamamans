@@ -27,4 +27,9 @@ public class Dog implements Domesticatable, Tradable {
     public int getPrice() {
         return 5;
     }
+
+    @Override
+    public String toString() {
+        return "A cute dog that is " + (this.age - 1) + " dog years old!";
+    }
 }

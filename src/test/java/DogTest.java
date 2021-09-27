@@ -26,6 +26,11 @@ public class DogTest {
     }
 
     @Test(timeout = 50)
+    public void TestToString() {
+        assertEquals("A cute dog that is 0 dog years old!", d.toString());
+    }
+
+    @Test(timeout = 50)
     public void TestBirthday() {
         d.birthday();
         assertEquals(8, d.getAge());
